@@ -334,39 +334,9 @@ export default function Contact() {
                       </div>
                     </div>
 
-                    {/* Subject */}
-                    <div className="col-12 col-sm-6">
-                      <div className="field-group">
-                        <label className="field-label">I Need Help With <span className="field-required">*</span></label>
-                        <select
-                          name="subject" value={form.subject}
-                          onChange={handleChange}
-                          onFocus={() => setFocused("subject")}
-                          onBlur={() => setFocused(null)}
-                          className={`field-select ${focused === "subject" ? "active" : ""}`}
-                        >
-                          <option value="" disabled>Select a service...</option>
-                          {subjects.map((s, i) => <option key={i} value={s}>{s}</option>)}
-                        </select>
-                      </div>
-                    </div>
+               
 
-                    {/* Budget */}
-                    <div className="col-12 col-sm-6">
-                      <div className="field-group">
-                        <label className="field-label">Budget Range</label>
-                        <select
-                          name="budget" value={form.budget}
-                          onChange={handleChange}
-                          onFocus={() => setFocused("budget")}
-                          onBlur={() => setFocused(null)}
-                          className={`field-select ${focused === "budget" ? "active" : ""}`}
-                        >
-                          <option value="" disabled>Select budget...</option>
-                          {budgets.map((b, i) => <option key={i} value={b}>{b}</option>)}
-                        </select>
-                      </div>
-                    </div>
+                
 
                     {/* Message */}
                     <div className="col-12">
