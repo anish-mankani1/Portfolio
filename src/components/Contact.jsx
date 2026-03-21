@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+ import {supabase} from '../supabaseClient'
+
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", subject: "", budget: "", message: "" });
@@ -7,11 +9,27 @@ export default function Contact() {
 
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setStatus("sending");
-    setTimeout(() => setStatus("sent"), 2000);
-  };
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+  setStatus("sending");
+
+  const { data, error } = await supabase
+    .from('Anish_portfolio') // your table name
+    .insert([
+      {
+        Full_Name: form.name,
+        Email_Address: form.email,
+        message: form.message,
+      }
+    ]);
+
+  if (error) {
+    console.error(error);
+    setStatus("error");
+  } else {
+    setStatus("sent");
+  }
+};
 
   const subjects = ["AI Automation", "Data Analysis", "Web Development", "Freelance Project", "Full-time Opportunity", "Other"];
   const budgets = ["< ₹10,000", "₹10,000 – ₹30,000", "₹30,000 – ₹1,00,000", "₹1,00,000+", "Let's Discuss"];
@@ -22,6 +40,10 @@ export default function Contact() {
     { icon: "in", label: "LinkedIn", value: "contactanishmankani", href: "https://www.linkedin.com/in/contactanishmankani" },
     { icon: "gh", label: "GitHub", value: "anish-mankani1", href: "https://github.com/anish-mankani1" },
   ];
+
+  
+
+  
 
   return (
     <>
@@ -375,6 +397,8 @@ export default function Contact() {
           </div>
         </div>
       </div>
+
+      
     </>
   );
 }
