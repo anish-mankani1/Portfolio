@@ -1,5 +1,5 @@
 import React, { useState } from "react";
- import {supabase} from '../supabaseClient'
+import Supabase from './Supabase'
 
 
 export default function Contact() {
@@ -13,7 +13,7 @@ export default function Contact() {
   e.preventDefault();
   setStatus("sending");
 
-  const { data, error } = await supabase
+  const { data, error } = await Supabase
     .from('Anish_portfolio') // your table name
     .insert([
       {
