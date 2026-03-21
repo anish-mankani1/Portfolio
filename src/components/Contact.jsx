@@ -240,12 +240,8 @@ export default function Contact() {
 
           {/* Header */}
           <div className="mb-5 fade-up">
-            <div className="section-eyebrow">Get In Touch</div>
-            <div className="section-title">Let's <span>Work Together</span></div>
-            <p className="section-sub">
-              Have a project in mind? Looking for an AI automation specialist or data analyst?<br />
-              I'd love to hear from you — usually respond within 24 hours.
-            </p>
+            <div className="section-eyebrow">Open to Opportunities</div>
+            <div className="section-title">Seeking roles in AI Automation, Data Analysis, or Full-Stack Development.</div>
           </div>
 
           <div className="row g-4 align-items-start">
@@ -278,9 +274,7 @@ export default function Contact() {
 
                 <div className="info-divider" />
 
-                <div className="response-note">
-                  <p>⚡ <strong>Quick responder.</strong> I typically reply within <strong>24 hours</strong>. For urgent projects, call or WhatsApp directly.</p>
-                </div>
+                
               </div>
             </div>
 
