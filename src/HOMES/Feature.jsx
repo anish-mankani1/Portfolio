@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom";
 import React, { useEffect, useRef, useState } from "react";
 
 const reasons = [
@@ -279,7 +279,7 @@ export default function Feature() {
               </p>
             </div>
             <div className="d-flex gap-3 flex-wrap align-items-center" style={{ flexShrink: 0, paddingTop: 8 }}>
-              <a href="/contact" className="why-cta">Hire Me ↗</a>
+              <Link to="/contact" className="why-cta">Hire Me ↗</Link>
               <a href="https://jimmy-labs.vercel.app/" target="_blank" rel="noreferrer" className="why-cta-outline">View Work</a>
             </div>
           </div>

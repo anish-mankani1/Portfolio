@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react"; 
 import Feature from "../HOMES/Feature"; 
+import {Link} from "react-router-dom";
+
 const ROLES = [
   "Data Scientist & Analyst",
   "AI Agent Developer",
@@ -392,7 +394,6 @@ export default function Home() {
         <nav className="home-nav">
           <div className="nav-logo">Anish Mankani<span>.</span></div>
           <ul className="nav-links d-none d-md-flex">
-            <li><a href="/contact" className="nav-cta">Hire Me</a></li>
           </ul>
         </nav>
 
@@ -428,9 +429,9 @@ export default function Home() {
                   <a href="https://jimmy-labs.vercel.app/" target="_blank" rel="noreferrer" className="btn-primary-custom">
                     View Live Project ↗
                   </a>
-                  <a href="/contact" className="btn-outline-custom">
+                  <Link to="/contact" className="btn-outline-custom">
                     Contact Me
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Stats */}
