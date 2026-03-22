@@ -137,7 +137,7 @@ export default function Feature() {
   const bigStats = [
     { value: 2, suffix: "+", label: "Years Experience" },
     { value: 3, suffix: "", label: "Paid Internships" },
-    { value: 2, suffix: "+", label: "Live Projects" },
+    { value: 4, suffix: "+", label: "Live Projects" },
     { value: 100, suffix: "%", label: "Remote Ready" },
   ];
 
@@ -279,7 +279,7 @@ export default function Feature() {
               </p>
             </div>
             <div className="d-flex gap-3 flex-wrap align-items-center" style={{ flexShrink: 0, paddingTop: 8 }}>
-              <a href="mailto:mankanianeesh@gmail.com" className="why-cta">Hire Me ↗</a>
+              <a href="/contact" className="why-cta">Hire Me ↗</a>
               <a href="https://jimmy-labs.vercel.app/" target="_blank" rel="noreferrer" className="why-cta-outline">View Work</a>
             </div>
           </div>

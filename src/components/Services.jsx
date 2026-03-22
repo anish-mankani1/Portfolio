@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from 'react-router-dom'
 
 const services = [
   {
@@ -400,7 +401,7 @@ export default function Services() {
             <div className="cta-title">Got a Project in <span>Mind?</span></div>
             <p className="cta-sub">Let's discuss how I can help automate, analyse, or build exactly what you need.</p>
             <div className="d-flex gap-3 justify-content-center flex-wrap">
-              <a href="/contact" className="btn-grad">Let's Talk ↗</a>
+              <Link to="/contact" className="btn-grad">Let's Talk ↗</Link>
               <a href="https://jimmy-labs.vercel.app/" target="_blank" rel="noreferrer" className="btn-ghost">View My Work</a>
             </div>
           </div>

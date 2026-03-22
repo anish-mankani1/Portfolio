@@ -30,7 +30,7 @@ export default function Navbar() {
 
             <ul className='navbar-nav ms-auto me-5'>
               <li className="nav-item ">
-                <Link className="nav-link active " aria-current="page" to="/contact"><button type="button" class="btn btn-primary">Contact Us</button></Link>
+                <Link className="nav-link active " aria-current="page" to="/contact"><button type="button" className="btn btn-primary">Contact Us</button></Link>
               </li>
             </ul>
 

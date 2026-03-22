@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Supabase from './Supabase'
 
 export default function Contact() {
-  const [form, setForm] = useState({ name: "", email: "", subject: "", budget: "", message: "" });
+  const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [status, setStatus] = useState(null); // null | "sending" | "sent" | "error"
   const [focused, setFocused] = useState(null);
 
