@@ -56,9 +56,11 @@ export default function Home() {
     { name: "Power BI", icon: "📊" },
     { name: "Pandas", icon: "🐼" },
     { name: "Make.com", icon: "⚙️" },
+     { name: "Lindy.ai",icon:"⚙️" },
     { name: "Retell AI", icon: "🤖" },
     { name: "MERN", icon: "🌐" },
-    { name: "Excel", icon: "📋" },
+    { name: "Java",icon:"🌐"  },
+    { name: "Ai Agent Developer" ,icon: "🌐" },
   ];
 
   return (
@@ -406,7 +408,7 @@ export default function Home() {
               <div className="col-12 col-lg-7">
                 <div className="hero-badge">
                   <span className="badge-dot" />
-                  Available for Freelance & Full-time
+                  Available for Full-time roles
                 </div>
 
                 <div className="hero-name">

@@ -24,7 +24,7 @@ export default function Navbar() {
               <a className="nav-link active" aria-current="page" href="https://drive.google.com/file/d/16IPHBsI-Et8jKELPvBNk1VuBNp-6hXXS/view?usp=drive_link" target="_blank" rel="noopener noreferrer" >Resume</a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/services">Services</Link>
+              <Link className="nav-link active" aria-current="page" to="/expertise">Expertise</Link>
             </li>
  </ul>
 

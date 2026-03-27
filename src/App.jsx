@@ -6,7 +6,7 @@ import About from './components/About'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import Scroll from './Scrolltotop/Scroll'
-import Services from './components/Services'
+import Expertise from './components/Expertise'
 import Footer from './HOMES/Footer'
 
 function App() {
@@ -15,19 +15,19 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Scroll/>
-        <Navbar/>
+        <Scroll />
+        <Navbar />
         <div className="container-fluid bg-dark text-white min-vh-100 w-100">
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/home" element={<Home/>} />
-          <Route path="/about" element={<About/>} />
-          <Route path="/project" element={<Project/>} />
-           <Route path="/services" element={<Services/>} />
-          <Route path="/contact" element={<Contact/>} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/expertise" element={<Expertise />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
         </div>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </>
   )

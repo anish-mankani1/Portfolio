@@ -375,7 +375,7 @@ export default function Services() {
             }}
           >
             <div className="section-eyebrow">What I Offer</div>
-            <div className="section-title">Services & <span>Expertise</span></div>
+            <div className="section-title"><span>Expertise</span></div>
             <p className="section-sub">
               From AI agent development to data analysis and full-stack web development — here's exactly how I can help your business grow.
             </p>

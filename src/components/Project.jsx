@@ -19,7 +19,7 @@ const projects = [
       "Structured the site to clearly present AI email assistants, lead-flow automation, and workflow synchronization",
       "Deployed production build on Vercel with GitHub source control",
     ],
-    tags: ["React", "Vercel", "GitHub", "Lead Capture", "Responsive"],
+    tags: ["React", "Vercel", "GitHub", "Lead Capture", "Responsive","Supabase","Lindy AI","Spring Boot"],
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const projects = [
       "Automated email classification across billing, tax, and reconciliation with auto-generated Ticket IDs (ACC-YYYYMMDD-HHMMSS)",
       "Intelligent tenant/property identification with zero manual intervention across the entire workflow",
     ],
-    tags: ["Lindy AI", "Power Automate", "Microsoft Lists", "Excel", "Outlook"],
+    tags: ["Lindy AI", "Power Automate", "Microsoft Lists","Outlook", "Excel", "Outlook"],
   },
   {
     id: 3,
@@ -59,7 +59,7 @@ const projects = [
       "Set up call routing logic — warm transfer to human agent or automated SMS/email follow-up based on lead response",
       "Reduced cost-per-lead and response time by replacing manual call handling with always-on AI agent",
     ],
-    tags: ["Retell AI", "GoHighLevel", "CRM", "Voice AI", "Lead Automation"],
+    tags: ["Retell AI", "GoHighLevel","Centerfy Ai", "CRM", "Voice AI", "Lead Automation"],
   },
 ];
 
