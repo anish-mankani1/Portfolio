@@ -272,7 +272,7 @@ export default function Contact() {
               <div className="info-card">
                 <div className="avail-chip">
                   <span className="avail-dot" />
-                  Available for Work
+                  Available for Job
                 </div>
 
                 <div className="section-title" style={{ fontSize: '1.3rem', marginBottom: 8 }}>
@@ -363,7 +363,7 @@ export default function Contact() {
                           onFocus={() => setFocused("message")}
                           onBlur={() => setFocused(null)}
                           className={`field-textarea ${focused === "message" ? "active" : ""}`}
-                          placeholder="Tell me about your project — what problem are you trying to solve, what tools you're using, and your timeline..."
+                          placeholder="contact me"
                           required
                         />
                         <div className="char-count">{form.message.length} / 500</div>
