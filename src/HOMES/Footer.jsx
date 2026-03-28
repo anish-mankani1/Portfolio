@@ -59,7 +59,7 @@ export default function Footer() {
           <div className="col-md-2 mb-4">
             <h6 className="fw-bold">Contact</h6>
             <p className="text-light opacity-75 mb-1">Email: mankanianeesh@gmail.com</p>
-            <p className="text-light opacity-75 mb-1">Phone: +918378853372</p>
+            <p className="text-light opacity-75 mb-1">Phone: +91 8378853372</p>
             <p className="text-light opacity-75"> Nagpur Maharashtra,India</p>
           </div>
 
