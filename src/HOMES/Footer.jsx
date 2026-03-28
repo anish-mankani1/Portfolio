@@ -71,7 +71,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center pb-3">
           <p className="mb-2 mb-md-0 text-light opacity-75">
-            © {new Date().getFullYear()} YourBrand. All rights reserved.
+            © {new Date().getFullYear()} Anish Mankani. All rights reserved.
           </p>
         </div>
 

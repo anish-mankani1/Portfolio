@@ -21,7 +21,7 @@ export default function Navbar() {
               <Link className="nav-link active" aria-current="page" to="/project">Project</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="https://drive.google.com/file/d/16IPHBsI-Et8jKELPvBNk1VuBNp-6hXXS/view?usp=drive_link" target="_blank" rel="noopener noreferrer" >Resume</a>
+              <a className="nav-link active" aria-current="page" href="https://drive.google.com/file/d/1pLeltlume9c6Wh1rm1C8LHC3ukmvt5Qg/preview" target="_blank" rel="noopener noreferrer" >Resume</a>
             </li>
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/expertise">Expertise</Link>
